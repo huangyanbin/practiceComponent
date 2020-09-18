@@ -7,7 +7,6 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 
 import {{fullName}}.R;
-import com.app.jianguyu.jiangxidangjian.cc.testplugin.R;
 import com.jxrs.component.base.BaseActivity;
 
 /**
