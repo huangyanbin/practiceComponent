@@ -2,7 +2,7 @@ package debug;
 
 
 import android.app.Application;
-
+import {{ARouterClass}};
 import {{fullName}}.BuildConfig;
 import com.billy.cc.core.component.CC;
 import {{component}};
@@ -19,6 +19,7 @@ public class MyApp extends Application {
             CC.enableVerboseLog(true);
             CC.enableDebug(true);
         }
+        {{ARouterInit}}
         Component.init(this, Component.FULL_VERSION,"dev",true, "{{pluginName}}");
 
     }
