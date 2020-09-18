@@ -2,12 +2,8 @@ apply from: rootProject.file('rs-plugin.gradle')
 
 android {
 
-    defaultConfig {
-        buildConfigField "long", "AppInstallTime", "${(System.currentTimeMillis()/1000).intValue()}"
-        buildConfigField "String", "_api_key", "\"198a430b9f919a10d31d6dbd5be2e972\""
-        buildConfigField "String", "appKey", "\"486527dc6f14d58f6c0b3ba2773f8373\""
-    }
+
     dependencies {
-        api 'com.github.markzhai:blockcanary-android:1.5.0'
+
     }
 }
