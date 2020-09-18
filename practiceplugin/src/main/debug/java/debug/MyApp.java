@@ -2,7 +2,7 @@ package debug;
 
 
 import android.app.Application;
-import {{ARouterClass}};
+ {{importARouterClass}}
 import {{fullName}}.BuildConfig;
 import com.billy.cc.core.component.CC;
 import {{component}};
